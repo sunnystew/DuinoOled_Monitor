@@ -113,10 +113,10 @@ void loop() {
         display.setTextSize(1);
         display.setTextColor(WHITE);
         display.setCursor(0, 0);
-        display.println("User : " + String(result_balance_username));
-        display.println("Total Miner : " + String(total_miner));
-        display.println("Balance : " + String(result_balance_balance));
-        display.println("KH/s (" + String(run_span) + "s): " + String(totalHashrate/1000));
+        display.println("User: " + String(result_balance_username));
+        display.println("Miners: " + String(total_miner));
+        display.println("Balance: " + String(result_balance_balance));
+        display.println("><> ><> ><> ><> ><> ><> ><> ><> ><> ><>");
         display.display();
     }
 
